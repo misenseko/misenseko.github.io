@@ -44,13 +44,13 @@ body{ background:#e8e8e8; position:relative;}
 .comment{background:url(../images/comment_btn.gif) no-repeat;}
 .comment, .backtop{ z-index:1;}
 
-.header{ width:960px;margin:0 auto; height:90px; padding:45px 0 0 0;_padding:0 0 0 0;}
+.header{ width:960px;margin:0 auto; height:70px; min-height:30px;padding:45px 0 0 0;_padding:0 0 0 0;}
 .header_lt{ min-width:230px;_width:expression((documentElement.clientWidth <230) ? "230px" : "auto" );text-align:right;}
 .header_lt .user_name{ margin:20px 0 0 0; display:inline-block;}
-.header_lt .user_name a{ font-size:34px; font-family:"Microsoft YaHei";color:#212121; line-height:36px;}
+.header_lt .user_name a{ font-size:18px; font-family:"Microsoft YaHei";color:#fafafa; line-height:20px;}
 .header_lt .user_name a strong{ font-weight:100; font-style:normal;}
 .header_lt .web_url{ margin:0 5px 0 0;}
-.header_lt .web_url a{color:#272727;}
+.header_lt .web_url a{color:#fafafa;}
 
 
 
